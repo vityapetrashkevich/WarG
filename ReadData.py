@@ -74,4 +74,3 @@ class ReadFile:
             dict_del['ID'].append(int(order[2]))
         ReadFile.last_timestamp = int(order[0])
         return dict_del
-
